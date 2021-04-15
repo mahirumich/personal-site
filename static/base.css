@@ -23,7 +23,7 @@ body.night {
 
 .tagline_intro {
     font-weight: 200;
-    max-width: 670px;
+    max-width: 600px;
 }
 
 header.intro {
@@ -50,7 +50,6 @@ a:hover{
 }
 
 
-
 .scroll_more {
     font-size: 24px;
     font-weight: 200;
@@ -58,24 +57,25 @@ a:hover{
 }
 .section {
     padding: 50px;
-    float: left;
+    /* float: left;
+    padding-bottom: 50px; */
 }
 .section_title {
     float: left;
-    font-size: 18px;
+    font-size: 22px;
     width: 200px;
     margin-left: 40px;
     margin-right: 100px;
     color: #FFCF99;
     text-transform: lowercase;
     text-align: right;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 2px;
 }
 
 .section_content.right {
     font-weight: 325;
-    font-size: 18px;
+    font-size: 22px;
     margin-left: 75px;
     margin-right: 100px;
     max-width: 725px;
@@ -89,9 +89,33 @@ a:hover{
 /* strong {
   font-weight: 400;
 } */
-
+li {
+  font-size: 18px;
+  font-weight: 375;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
 .right {
     float: left;
     font-weight: 300;
     margin-left: 75px;
   }
+
+.skills_cat_label {
+  color: #59A5D8;
+  float: left;
+  font-size: 22px;
+  width: 200px;
+  text-transform: lowercase;
+  text-align: left;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.skills_category {
+  float: left;
+}
