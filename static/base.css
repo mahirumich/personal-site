@@ -13,6 +13,29 @@ body.night {
     width: 100%;
 }
 
+header img {
+  position: absolute;
+  float: left;
+  padding-left: 800px;
+  height: 476px;
+  z-index: -1;
+}
+
+.hello-intro::after {
+  content:'';
+  background-image: url('mahirnbc-20.jpeg'); /*use tree here*/
+  width:476px;
+  /* height: 100px; */
+  display:inline-block;
+}
+
+.intostuff {
+  display: inline-block;
+}
+
+.introtxt {
+  display: inline-block;
+}
 .hello_intro {
     font-weight: 200;
 }
@@ -48,18 +71,17 @@ a {
 a:hover{
     background-color: #59A5D8;
 }
-
-
 .scroll_more {
     font-size: 24px;
     font-weight: 200;
     text-align: center;
 }
-.section {
-    padding: 50px;
-    /* float: left;
-    padding-bottom: 50px; */
+
+section {
+  display: flex;
+  padding-bottom: 150px;
 }
+
 .section_title {
     float: left;
     font-size: 22px;
@@ -71,14 +93,21 @@ a:hover{
     text-align: right;
     font-weight: 700;
     letter-spacing: 2px;
+    display: inline;
 }
 
-.section_content.right {
+.stack{
+  flex-grow: 1;
+}
+
+.section_content {
+    float: left;
     font-weight: 325;
     font-size: 22px;
     margin-left: 75px;
     margin-right: 100px;
     max-width: 725px;
+    display: inline;
 }
 
 .left {
