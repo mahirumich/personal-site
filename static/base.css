@@ -49,6 +49,8 @@ a:hover{
     background-color: #59A5D8;
 }
 
+
+
 .scroll_more {
     font-size: 24px;
     font-weight: 200;
@@ -71,9 +73,10 @@ a:hover{
     letter-spacing: 2px;
 }
 
-.section_content {
-    font-weight: 300;
+.section_content.right {
+    font-weight: 325;
     font-size: 18px;
+    margin-left: 75px;
     margin-right: 100px;
     max-width: 725px;
 }
@@ -83,12 +86,12 @@ a:hover{
     margin-right: 100px;
 }
 
+/* strong {
+  font-weight: 400;
+} */
+
 .right {
     float: left;
-    /* font-weight: 300; */
+    font-weight: 300;
     margin-left: 75px;
-}
-
-.quick_bold {
-  font-weight: 400;
-}
+  }
