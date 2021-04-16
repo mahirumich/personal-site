@@ -73,7 +73,8 @@ a:hover{
 
 section {
   display: flex;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .section_title {
@@ -166,4 +167,27 @@ ul {
 
 .class_proj a {
   font-weight: 700;
+}
+
+.contact {
+  padding-bottom: 5px;
+}
+
+hr {
+  width: 43%;
+  /* color: #FFCF99; */
+  /* border: 0px; */
+  height:.25px;
+  border-width:0;
+  color: #FFCF99;
+  background-color: #FFCF99;
+  /* padding-bottom: 150px; */
+}
+
+.resume {
+  font-weight: 700;
+}
+
+.resume a {
+  font-weight: 200;
 }
