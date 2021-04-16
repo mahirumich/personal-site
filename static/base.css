@@ -143,6 +143,7 @@ ul {
 .skills_category {
   float: left;
   padding-right: 15px;
+  display: inline;
 }
 
 .exp_item {
@@ -157,4 +158,12 @@ ul {
   text-transform: lowercase;
   font-weight: 700;
 }
-.
+
+.class_proj {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.class_proj a {
+  font-weight: 700;
+}
